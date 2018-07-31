@@ -5,7 +5,6 @@ EXPOSE 8181
 
 ADD /conf/ /etc/nginx/
 WORKDIR /www/
-ADD /cmd/  /
 
 LABEL version="1.2" nginx="1.14.0" openssl="1.1.0h"  mode="prod"
 
