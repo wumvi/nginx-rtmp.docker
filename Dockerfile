@@ -89,7 +89,6 @@ RUN DEBIAN_FRONTEND=noninteractive && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /soft/ && \
     #
-    chmod +x /*.sh && \
     echo 'end'
 
 CMD ["nginx", "-g", "daemon off;"]
